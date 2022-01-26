@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+/*font-family: 'Abel', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace; */
+
+
+
+.container {
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: 17vh 17vh 50vh 50vh 17vh; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "headerPadre headerPadre"
+      "literaturaPadre literaturaPadre"
+      "trabajosPadre1 trabajosPadre1"
+      "trabajosPadre2 trabajosPadre2"
+      "footer footer"; 
+  }
+
+
+  .headerPadre{
+      grid-area: headerPadre;
+      background-color: white;
+      
+      
+  }
+
+  .literaturaPadre{
+      grid-area: literaturaPadre;
+      background-color: #E3E3E3;
+  }
+
+  .trabajosPadre1{
+      grid-area: trabajosPadre1;
+  }
+
+  .trabajosPadre2{
+      grid-area: trabajosPadre2;
+  
+  }
+
+  .footer{
+      grid-area: footer;
+      background-color: #E3E3E3;
+  }
+
+
+#header{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#header li{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 22px;
+}
+
+#header li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+#header h3{
+    font-size: 22px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    margin: 30px;
+}
+
+.headerHijo p{
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
+}
+
+.trabajosPadre1{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.trabajosPadre2{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#footer{
+    min-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer li{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 22px;
+}
+
+#footer a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+}
+
+#footer h3{
+    font-size: 22px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    margin: 30px;
+}
+
+/*HIJOS*/
+
+.headerHijo{
+    background-color: #E3E3E3;
+    min-height: 120px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*CONTACTO*/
+
+
+.bottonGray{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.curriculum{
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none;
+    padding: 9px;
+    background-color: #4F4F4F;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+.trabajosPadre1{
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    margin: 30px;
+    padding: 50px;
+    text-align: left;
+}
+
+.presentacion1{
+    padding-left: 200px;
+}
+
+.yosoy{
+    margin: 350px;
+}
+
+.trabajosPadre2{
+    font-size: 18px;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:normal;
+    margin: 30px;
+    padding: 50px;
+    text-align: left;
+}
+
+.presentacion2{
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.presentacion2 p{
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-bottom: 250px;
+}
+
+
+
+
